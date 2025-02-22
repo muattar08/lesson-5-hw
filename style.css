@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0; 
+    padding: 20px 50px;
+    color: #000000; 
+}
+
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.logo img {
+    height: 50px; 
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px; 
+}
+
+.nav-links a {
+    color: #000000; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.circles {
+    display: flex;
+    gap: 15px; 
+}
+
+.circle {
+    background-color: #ccc; 
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px; 
+}
+
+.circle.large {
+    background-color: #ccc; 
+    width: 50px; 
+    height: 50px; 
+}
+
+
+.section6 {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 130px;
+}
+
+h2 {
+    font-size: 56px;
+    color: #000000; 
+}
+
+
+.btn-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.btn {
+    background-color: #0094FF; 
+    border: none;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #007acc;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    width: 30%;
+    height: 200px;
+    background-color:#C4C4C4;
+    border-radius: 8px; 
+}
